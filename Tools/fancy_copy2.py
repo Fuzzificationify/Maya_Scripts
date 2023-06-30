@@ -382,7 +382,7 @@ class FancyCopyDialog(QtWidgets.QDialog):
                         valueOffset=self.value_offset)
 
 
-     def copy_anim(self):
+    def copy_anim(self):
         self.get_ui_input()
 
         self.sources_list = self.source_my_qlist.qlist_sel
